@@ -7,17 +7,19 @@ public class Main {
     System.out.println("");
     System.out.println("e esse programa irá classificar ele como impar ou como par");
     System.out.println("");
-    System.out.println("digite um numero inteiro");
-    Double numero = sc.nextDouble();
+    System.out.println("digite o numerador");
+    Double numerador = sc.nextDouble();
+    System.out.println("digite o denominador");
+    Double denominador = sc.nextDouble();
+Double resto = numerador % denominador;
 
-
-
-    if(numero/2 = 0){
+    if(resto ==0){
       System.out.println("o numero é par");
     }
-if(numero/2 = 1){
-  System.out.println("o numero é impar");
-}
+    if(resto>1){
+      System.out.println("o numero é impar");
+    }
+ 
      
 
 
